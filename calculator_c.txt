@@ -374,7 +374,7 @@ void COMWRT4(unsigned char command)
     
 
 
-	p = strtok(expr, "/+-*");
+	p = strtok(expr, "/+-*"); //separare operatori 
 	
 	//obtinere operanzi
 	while (p!=NULL){  //separam fiecare operand
